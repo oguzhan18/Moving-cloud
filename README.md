@@ -34,9 +34,9 @@
 
 
 ## Live View
-[Click to Live View] (https://codepen.io/oguzhan1881/pen/BaQgbzo)
+[Click to Live View](https://codepen.io/oguzhan1881/pen/BaQgbzo)
 
 
 
 ## Download
-[Click to download] (https://codepen-api-export-production.s3.us-west-2.amazonaws.com/zip/PEN/BaQgbzo/1616162535498/CodePen_Export_BaQgbzo.zip)
+[Click to download](https://codepen-api-export-production.s3.us-west-2.amazonaws.com/zip/PEN/BaQgbzo/1616162535498/CodePen_Export_BaQgbzo.zip)
