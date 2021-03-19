@@ -9,11 +9,17 @@
 ## Usage
 
 ```js
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+ var cloudWidth = $(".cloud").width();
+    function cloudHeight() {
+      $(".cloud").css({ 'height': cloudWidth + 'px' });
+    };
+    $(document).ready(function () {
+      cloudHeight();
+    });
+    $(window).resize(function () {
+      cloudWidth = $(".cloud").width();
+      cloudHeight();
+    });
 ```
 
 
