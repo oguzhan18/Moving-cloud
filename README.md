@@ -42,4 +42,4 @@
 [Click to download](https://codepen-api-export-production.s3.us-west-2.amazonaws.com/zip/PEN/BaQgbzo/1616162535498/CodePen_Export_BaQgbzo.zip)
 
 ## Email address for your problems
-[Click to download](oguzhancart1@gmail.com)
+oguzhancart1@gmail.com
