@@ -1,0 +1,78 @@
+<html>
+	<head>
+	<style>
+	html, body {
+
+    background-color:rgb(47, 47, 61);  }
+
+  .cloud, .cloud:after, .cloud:before {
+    content: "";
+    border-radius: 50%;
+    background: rgb(166, 180, 218);
+    position: absolute;
+  }
+  
+  
+  .cloud {
+    left: 50%;
+    top: 50%;
+    width: 10%;
+    animation: float 5s infinite ease-out;
+    -webkit-animation: float 5s infinite ease-out;
+    position: absolute;
+    top: 10px;
+  }
+  .cloud:before {
+    width: 70%;
+    height: 70%;
+    left: -30%;
+    top: 30%;
+  }
+  .cloud:after {
+    width: 80%;
+    height: 80%;
+    right: -35%;
+    bottom: 0;
+  }
+  
+  @keyframes float {
+    0% {
+    right: 1%;  
+    }
+    10% {
+    left: 90%;
+    }
+    100% {
+    left: 1%;
+    }
+  }
+  @-webkit-keyframes float  {
+    0% {
+    left :10%;
+    }
+    50% {
+    left: 10%;
+    }
+    100% {
+    right: 10%;
+    }}
+	</style>
+	</head>
+	<body>
+	 <div class="cloud"></div>
+	      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script>
+			var cloudWidth = $(".cloud").width();
+			function cloudHeight(){
+				$(".cloud").css({'height':cloudWidth+'px'});
+			};
+		$(document).ready(function(){
+			cloudHeight();  
+		});              
+		$(window).resize(function() {
+			cloudWidth = $(".cloud").width();
+			cloudHeight();
+		});
+		</script>
+	</body>
+</html>
